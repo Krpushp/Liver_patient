@@ -16,9 +16,7 @@ st.markdown(
 # ==============================
 # LOAD DATA
 # ==============================
-df = pd.read_csv(
-    r"C:\Users\Pushp\OneDrive\Office\Analysis\Cleaning\liver_patient_dataset.csv"
-)
+df = pd.read_csv("liver_patient_dataset.csv")
 
 st.markdown(
 """
@@ -176,6 +174,14 @@ st.markdown(
 
 col1, col2 = st.columns(2)
 
+st.markdown(
+"""
+### TB + DB + SGPT Analysis for Liver Patient Data
+
+This analysis examines key liver function parameters—Total Bilirubin (TB), Direct Bilirubin (DB), and SGPT (ALT)—to assess liver health. 
+Elevated TB and DB levels may indicate liver dysfunction or bile duct issues, while increased SGPT suggests liver cell damage or inflammation. Together, these markers help in detecting and monitoring liver diseases effectively.
+"""
+)
 # ==========================
 # LEFT PLOT (your original)
 # ==========================
