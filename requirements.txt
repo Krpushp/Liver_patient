@@ -2,7 +2,5 @@ streamlit==1.32.2
 pandas
 numpy
 plotly
-requests
-pysurveycto
 matplotlib
-altair
+
