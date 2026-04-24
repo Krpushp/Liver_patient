@@ -16,9 +16,7 @@ st.markdown(
 # ==============================
 # LOAD DATA
 # ==============================
-df = pd.read_csv(
-    r"C:\Users\Pushp\OneDrive\Office\Analysis\Cleaning\liver_patient_dataset.csv"
-)
+df = pd.read_csv("liver_patient_dataset.csv")
 
 st.markdown(
 """
